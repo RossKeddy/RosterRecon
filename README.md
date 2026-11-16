@@ -28,7 +28,7 @@ text is escaped to prevent formula injection.
 
 - Python 3.10 or newer
 - Firefox, Chrome, or Chromium in a location Selenium can discover
-- A valid LinkedIn account
+- A valid LinkedIn account (I highly recommend building sock puppets)
 
 Install the project in a standard virtual environment:
 
