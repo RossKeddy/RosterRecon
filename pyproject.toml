@@ -1,0 +1,28 @@
+[project]
+name = "rosterrecon"
+version = "1.0.0"
+description = "Employee metadata and username-pattern OSINT exporter"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "requests>=2.34.2",
+    "selenium>=4.44.0",
+    "urllib3>=2.7.0",
+]
+
+[project.scripts]
+rosterrecon = "rosterrecon:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["rosterrecon"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
